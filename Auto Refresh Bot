@@ -1,0 +1,12 @@
+from selenium import webdriver
+import time
+
+### This program is pretty much a viewbot, simple and under 10 lines of code. If you want to use it make sure you change the 11th line's time. 
+driver = webdriver.Firefox()
+while True:
+    driver.get('https://www.youtube.com/watch?v=Liy98KgzELU')
+    driver.maximize_window()
+    time.sleep(10)
+    driver.find_element_by_xpath('/html/body/ytd-app/div/ytd-page-manager/ytd-watch-flexy/div[4]/div[1]/div/div[1]/div/div/div/ytd-player/div/div/div[4]/button').click()
+    time.sleep(680)
+    driver.refresh()

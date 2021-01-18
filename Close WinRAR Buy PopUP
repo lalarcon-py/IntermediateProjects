@@ -1,0 +1,7 @@
+import pyautogui
+import psutil
+pyautogui.FailSafeException = True
+
+"WinRAR 6.00b1 Expired Notification" in (p.name()for p in psutil.process_iter())
+pyautogui.moveTo(1335,209)
+pyautogui.click()

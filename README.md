@@ -1,2 +1,2 @@
 # IntermediateProjects
-These are projects that I have created starting my 4th month of learning Python and programming in general.
+Projects I deem to be as intermediate level in Python.
